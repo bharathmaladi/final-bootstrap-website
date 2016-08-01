@@ -1,0 +1,509 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+/*---------------
+mission statement
+-------------------------------------*/
+.mission{
+  background: rgba(2, 133, 163, 0.54);
+  color: white;
+
+}
+.mission h3{
+}
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   #features{
+   text-align: center;
+   padding: 20px 0;
+   }
+   #features img{
+     margin:0 0 20px;
+   }
+   #inputAddress{
+     margin-bottom: 15px;
+   }
+   .feature h3,p{
+     font-family: sans-serif;
+   }
+   .more{
+     margin-top: 100px;
+   }
+   #moreCourses1{
+     margin-bottom: 10px;
+   }
+   .list-group-item a{
+     text-decoration: none;
+     color: black;
+     font-family:'Open-sans' sans-serif;
+   }
+   #moreInfo{
+     margin-bottom: 15px;
+   }
+   .change{
+     color: #0285a3;
+   }
+
+   #tab1 iframe{
+     height:330px;
+   }
+   /*----------------
+         footer
+   ------------------*/
+   footer{
+     background:rgba(2, 133, 163, 0.54);
+     color:white;
+     font-size: 11px;
+     padding: 20px;
+     width: 100%;
+
+   }
+   footer .row a{
+     color:whitesmoke;
+     font-size: 16px;
+     font-family: 'Open-sans' sans-serif;
+   }
+   .social li{
+     display: inline;
+   padding: 10px;
+   }
+   .social img{
+     width: 35px;
+   }
+   .social li, .social a{
+     height:50%;
+     width: 50%;
+     font-size: 16px;
+     font-family: 'Open-sans' sans-serif;
+   }
+   .copyright h6{
+     font-size: 16px;
+     font-family:'Open-sans' sans-serif;
+   }
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   body{
+     -webkit-font-smoothing:antialiased;
+     text-rendering: optimizeLegibility;
+   }
+   .well .page-header h1{
+     margin-top: -20px;
+   }
+   ul.unstyled{
+     list-style: none;
+     padding:0;
+   }
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.logo{
+  color: #rgba(2, 133, 163, 0.54);
+  font-weight: bold;
+  font-size:32px;
+}
+.navbar-nav{
+  margin-top: 20px;
+}
+.navbar-responsive-collapse{
+  float: left;
+}
+.navbar-responsive-collapse span{
+  float: left;
+}
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel .item{
+     height:500px;
+   }
+   #myCarousel{
+     margin-top: 0px;
+   }
+   #myCarousel p{
+     color: yellow;
+     font-size: 18px;
+   }
+   #slide1{
+     background:url('../../images/university.jpg') top center no-repeat;
+     background-size: cover;
+
+
+   }
+   #slide2{
+     background:url('../../images/hero5.jpg') top center no-repeat;
+     background-size: cover;
+   }
+   #slide3{
+     background:url('../../images/hero6.jpg') top center no-repeat;
+     background-size: cover;
+   }
+   #slide5{
+     background:url('../../images/hero3.jpeg') top center no-repeat;
+     background-size: cover;
+}
+#slide6{
+  background:url('../../images/body1.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+   .item h4{
+     color:#f2f2f2;
+     font-size: large;
+     font-family: 'Open-sans' sans-serif,solid;
+     font-size: 40px;
+
+     margin-top: 80px;
+     margin-left: 40px;
+   }
+
+   #slide1 h4{
+     position: absolute;
+     right:10px;
+     bottom: 350px;
+   }
+   #slide1 p{
+     position: absolute;
+     right:180px;
+     bottom: 330px;
+     color: yellow;
+   }
+   #slide6 h1{
+     position: absolute;
+     right: 200px;
+     bottom: 430px;
+   }
+   #slide6 p{
+     position: absolute;
+     right:190px;
+     bottom: 390px;
+     color: yellow;
+   }
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   .alert{
+     margin-top: 20px;
+     display:none;
+   }
+   .well{
+     margin:20px 0px;
+   }
+   .tabbable img.thumbnail{
+     margin:0 20px 10px 0;
+   }
+   .well h2{
+     text-align: center;
+     font-size: 30px;
+   }
+   .feature p{
+     text-align: left;
+   }
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+  .logo{
+    color: #rgba(2, 133, 163, 0.54);
+    font-weight: bold;
+    font-size:22px;
+  }
+  .navbar-nav{
+    margin-top: 20px;
+  }
+
+  .navbar-responsive-collapse{
+    float: left;
+  }
+  .navbar-responsive-collapse span{
+    float: left;
+  }
+  .nav-tabs li{
+    padding: -10px;
+  }
+
+  .thumbnail .price{
+    font-size: 14px;
+  }
+  .thumbnail .price sup{
+    font-size: 10px;
+  }
+  #myCarousel p{
+    color: yellow;
+    font-size: 15px;
+  }
+  #myCarousel .item{
+    height:300px;
+  }
+  #slide1{
+    background:url('../../images/universitysmall.jpg') top center no-repeat;
+    background-size: cover;
+  }
+  #slide2{
+    background:url('../../images/hero5small.jpg') top center no-repeat;
+    background-size: cover;
+  }
+  #slide3{
+    background:url('../../imageshero6small.jpg') top center no-repeat;
+    background-size: cover;
+  }
+
+  #slide5{
+    background:url('../../images/hero3small.jpg') top center no-repeat;
+    background-size: cover;
+  }
+  #slide6{
+    background:url('../../images/body1small.jpg') top center no-repeat;
+    background-size: cover;
+  }
+  .item h4{
+    color:#f2f2f2;
+    font-size: large;
+    font-family: 'Open-sans' sans-serif,solid;
+    font-size: 12px;
+
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+  #slide1 h4{
+    position: absolute;
+    right:2px;
+    bottom:100px;
+  }
+  #slide1 p{
+    position: absolute;
+    right:0;
+    bottom: 80px;
+    color: yellow;
+  }
+
+
+
+
+  footer{
+    background:rgba(2, 133, 163, 0.54);
+    color:white;
+    font-size: 10px;
+    padding: 20px;
+    width: 100%;
+
+  }
+  footer .row a{
+    color:whitesmoke;
+    font-size: 10px;
+    font-family: 'Open-sans' sans-serif;
+  }
+  .social li{
+    display: inline;
+  padding: 0px;
+  }
+  .social img{
+    width: 18px;
+  }
+
+  .social li, .social a{
+    height:50%;
+    width: 50%;
+    font-size: 10px;
+    font-family: 'Open-sans' sans-serif;
+  }
+  .copyright h6{
+    font-size: 10px;
+    font-family:'Open-sans' sans-serif;
+  }
+  .text-right{
+    text-align: left;
+  }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .logo{
+    color: #rgba(2, 133, 163, 0.54);
+    font-weight: bold;
+    font-size:22px;
+  }
+  .navbar-nav{
+    margin-top: 20px;
+  }
+
+  .navbar-responsive-collapse{
+    float: left;
+  }
+  .navbar-responsive-collapse span{
+    float: left;
+  }
+  #myCarousel .item{
+    height:450px;
+  }
+  #slide1{
+    background:url('../../images/universitymedium.jpg') top center no-repeat;
+    background-size: cover;
+  }
+  #slide2{
+    background:url('../../images/hero5medium.jpg') top center no-repeat;
+    background-size: cover;
+  }
+  #slide3{
+    background:url('../../images/hero6medium.jpg') top center no-repeat;
+    background-size: cover;
+  }
+
+  #slide5{
+    background:url('../../images/hero3medium.jpg') top center no-repeat;
+    background-size: cover;
+}
+#slide6{
+  background:url('../../images/body1medium.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+  .item h4{
+    color:#f2f2f2;
+    font-size: large;
+    font-family: 'Open-sans' sans-serif,solid;
+    font-size: 30px;
+
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+  #slide1 h4{
+    position: absolute;
+    right:10px;
+    bottom: 150px;
+  }
+  #slide1 p{
+    position: absolute;
+    right:50px;
+    bottom: 130px;
+    color: yellow;
+  }
+  #slide6 h1{
+    position: absolute;
+    font-size: 25px;
+    right: 40px;
+    bottom: 345px;
+  }
+  #slide6 p{
+    position: absolute;
+    right:10px;
+    bottom: 300px;
+    color: yellow;
+  }
+
+  #tab1 iframe{
+    height:430px;
+  }
+  #tab2 img{
+    height:430px;
+  }
+  #tab3 img{
+    height:400px;
+  }
+
+  .social li{
+    display: inline;
+  padding: 0px;
+  }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #myCarousel .item{
+    height:600px;
+  }
+  #slide1{
+    background:url('../../images/university.jpg') top center no-repeat;
+    background-size: cover;
+  }
+  #slide2{
+    background:url('../../images/hero5.jpg') top center no-repeat;
+    background-size: cover;
+  }
+  #slide3{
+    background:url('../../images/hero6.jpg') top center no-repeat;
+    background-size: cover;
+  }
+  #slide5{
+    background:url('../../images/hero3.jpeg') top center no-repeat;
+    background-size: cover;
+}
+#slide6{
+  background:url('../../images/body1.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+  }
+
+
+  /*-------------callout--------------*/
+  .page-header h1{
+    color: #0285a3;
+    font-size:30px;
+        font-family: 'Open-sans' sans-serif;
+        font-weight: 400;
+            line-height: 110%;
+        text-shadow: 1px 1px 2px #ccc;
+        margin: 2.1rem 0 1.68rem;
+        text-align: center;
+  }
+  .page-header a{
+    align: center;
+  }
+
+  /*-----------------------------
+  mission callout
+  ------------------------------*/
+  .mission h3{
+    font-family: 'Open-sans' sans-serif;
+    font-size: 4em;
+    margin:1.78rem 0 1.424rem;
+    font-weight:bold;
+  text-align: center;
+  }
+  .mission p{
+    font-family:'Open-sans' sans-serif;
+    margin:1.78rem 0 1.424rem;
+  text-align: center;
+    font-size: 1.68rem;
+    font-weight: lighter;
+  }
+  .mission{
+    padding:70px 0;
+  }
+  .mission .row:first-child{
+    padding-bottom: 30px;
+  }
+
+
+  /*--------------
+  hero
+  --------------------*/
